@@ -7,8 +7,9 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="html/datatable.html">
-	<link rel="stylesheet" href="html/general.html">
+	<link rel="stylesheet" href="html/index.html">
 	<link rel="stylesheet" href="html/todolist.html">
+
 
 
 </head>
@@ -65,72 +66,93 @@
 			  	<section>
 				    <div class="card">
 				      <div class="card-body">
-				        <h5 class="card-title">Basic Buttons</h5>
-				        <button type="button" class="btn btn-default btn-sm">Default</button>
-			    		<button type="button" class="btn btn-primary btn-sm">Primary</button>
-						<button type="button" class="btn btn-secondary btn-sm">Secondary</button>
-						<button type="button" class="btn btn-success btn-sm">Success</button>
-						<button type="button" class="btn btn-info btn-sm">Info</button>
-						<button type="button" class="btn btn-warning btn-sm">Warning</button>
-						<button type="button" class="btn btn-danger btn-sm">Danger</button>
+				        <h5 class="card-title">Basic Progress Bar</h5>
+				        <div class="progress">
+				          <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+				        </div>
+				        <div class="progress">
+				          <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+				        </div>
+				        <div class="progress">
+				          <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+				        </div>
+				        <div class="progress">
+				          <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+				        </div>
+				        
 				      </div>
 				    </div>
 				</section>
 				<section>
 					<div class="card">
 				     <div class="card-body">
-				        <h5 class="card-title">Buttons Round</h5>
-				        <button type="button" class="btn btn-default round">Default</button>
-			    		<button type="button" class="btn btn-primary round">Primary</button>
-						<button type="button" class="btn btn-secondary round">Secondary</button>
-						<button type="button" class="btn btn-success round">Success</button>
-						<button type="button" class="btn btn-info  round">Info</button>
-						<button type="button" class="btn btn-warning  round">Warning</button>
-						<button type="button" class="btn btn-danger  round">Danger</button>
+				        <h5 class="card-title">Stripped Progress Bars</h5>
+				        <div class="progress">
+				          <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+				        </div>
+				        <div class="progress">
+				          <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+				        </div>
+				        <div class="progress">
+				          <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+				        </div>
+				        <div class="progress">
+				          <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+				        </div>
+				        <div class="progress">
+				          <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+				        </div>
+				        
 				     </div>
 			    	</div>
 				</section>
 				<section>
 					<div class="card">
 						<div class="card-body">
-					        <h5 class="card-title">Theme Buttons</h5>
-					        <button type="button" class="btn btn-aqua btn-sm"> Theme </button>
-					        <button type="button" class="btn btn-lila btn-sm"> Theme 02 </button>
-					        <button type="button" class="btn btn-verde btn-sm"> Theme 03 </button>
-					        <button type="button" class="btn btn-rojo btn-sm"> Theme 04 </button>
+					        <h5 class="card-title">Animated Progress Bar</h5>
+					        <div class="progress">
+					          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+					        </div>
+					        
 					     </div>
 					 </div>
 				</section>
 				<section>
 			    <div class="card">
-			    	 <h5 class="card-title">Buttons Group</h5>
-			    	 <div class="card-body">
-			    	 	<div class="btn-group" role="group" aria-label="Basic example">
-						  <button type="button" class="btn btn-default">Left</button>
-						  <button type="button" class="btn btn-default">Middle</button>
-						  <button type="button" class="btn btn-deafault">Right</button>
-					    </div>
-				    </div>
+			    	 <h5 class="card-title">Modal Example</h5>
+			    	 <!-- Button trigger modal -->
+					<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalLong">
+						  Launch modal
+					</button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        ...
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						        <button type="button" class="btn btn-primary">Save changes</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+			    	 
 			    </div>
 			</section>
 			<section>
 				<div class="card">
-					<h5 class="card-title"> Button Nesting</h5>
+					<h5 class="card-title"> Gritter Examples</h5>
 				<div class="card-body">
-					<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-					  <button type="button" class="btn btn-default">1</button>
-					  <button type="button" class="btn btn-default">2</button>
-
-					  <div class="btn-group" role="group">
-					    <button id="btnGroupDrop1" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					      Dropdown
-					    </button>
-					    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-					      <a class="dropdown-item" href="#">Dropdown link</a>
-					      <a class="dropdown-item" href="#">Dropdown link</a>
-					    </div>
-					  </div>
-					</div>
+					
 				</div>
 			    </div>
 		    </section>
