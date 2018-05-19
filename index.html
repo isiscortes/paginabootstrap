@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+	<div class="pos-f-t">
+		<div class="collapse" id="navbarToggleExternalContent">
+			<div class="bg-dark p-4">
+				<h4 class="text-white">Collapsed content</h4>
+	      		<span class="text-muted">Toggleable via the navbar brand.</span>
+	    	</div>
+	  	</div>
+	    <nav class="navbar navbar-dark bg-dark">
+	    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="navbar-toggler-icon"></span>
+	    	</button>
+	  </nav>
+	</div>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+
+<ul class="nav flex-column">
+	<p> Marcel Newman</p>
+
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Dashboard</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">UI Elements</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Components</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link" href="#">Extra Pages</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link" href="#">Forms</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link" href="#">Data Tables</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link" href="#">Charts</a>
+  </li>
+</ul>
+	
+      <!--Sidebar content-->
+ </div>
+    <div class="col-sm-9">
+	    <div class="row">
+			  <div class="col-sm-6">
+			  	<section>
+				    <div class="card">
+				      <div class="card-body">
+				        <h5 class="card-title">Basic Buttons</h5>
+				        <button type="button" class="btn btn-default btn-sm">Default</button>
+			    		<button type="button" class="btn btn-primary btn-sm">Primary</button>
+						<button type="button" class="btn btn-secondary btn-sm">Secondary</button>
+						<button type="button" class="btn btn-success btn-sm">Success</button>
+						<button type="button" class="btn btn-info btn-sm">Info</button>
+						<button type="button" class="btn btn-warning btn-sm">Warning</button>
+						<button type="button" class="btn btn-danger btn-sm">Danger</button>
+				      </div>
+				    </div>
+				</section>
+				<section>
+					<div class="card">
+				     <div class="card-body">
+				        <h5 class="card-title">Buttons Round</h5>
+				        <button type="button" class="btn btn-default round">Default</button>
+			    		<button type="button" class="btn btn-primary round">Primary</button>
+						<button type="button" class="btn btn-secondary round">Secondary</button>
+						<button type="button" class="btn btn-success round">Success</button>
+						<button type="button" class="btn btn-info  round">Info</button>
+						<button type="button" class="btn btn-warning  round">Warning</button>
+						<button type="button" class="btn btn-danger  round">Danger</button>
+				     </div>
+			    	</div>
+				</section>
+				<section>
+					<div class="card">
+						<div class="card-body">
+					        <h5 class="card-title">Theme Buttons</h5>
+					        <button type="button" class="btn btn-aqua btn-sm"> Theme </button>
+					        <button type="button" class="btn btn-lila btn-sm"> Theme 02 </button>
+					        <button type="button" class="btn btn-verde btn-sm"> Theme 03 </button>
+					        <button type="button" class="btn btn-rojo btn-sm"> Theme 04 </button>
+					     </div>
+					 </div>
+				</section>
+				<section>
+			    <div class="card">
+			    	 <h5 class="card-title">Buttons Group</h5>
+			    	 <div class="card-body">
+			    	 	<div class="btn-group" role="group" aria-label="Basic example">
+						  <button type="button" class="btn btn-default">Left</button>
+						  <button type="button" class="btn btn-default">Middle</button>
+						  <button type="button" class="btn btn-deafault">Right</button>
+					    </div>
+				    </div>
+			    </div>
+			</section>
+			<section>
+				<div class="card">
+					<h5 class="card-title"> Button Nesting</h5>
+				<div class="card-body">
+					<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+					  <button type="button" class="btn btn-default">1</button>
+					  <button type="button" class="btn btn-default">2</button>
+
+					  <div class="btn-group" role="group">
+					    <button id="btnGroupDrop1" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					      Dropdown
+					    </button>
+					    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+					      <a class="dropdown-item" href="#">Dropdown link</a>
+					      <a class="dropdown-item" href="#">Dropdown link</a>
+					    </div>
+					  </div>
+					</div>
+				</div>
+			    </div>
+		    </section>
+			</div>
+
+			<div class="col-sm-6">
+			  	<section>
+				    <div class="card">
+				    <div class="card-body">
+				        <h5 class="card-title">Button Sizes</h5>
+				        <button type="button" class="btn btn-primary btn-lg">Large Button</button>
+				         <button type="button" class="btn btn-default btn-lg">Large button</button>
+				         <button type="button" class="btn btn-primary btn-default">Default Button</button>
+				         <button type="button" class="btn btn-default btn-default">Default button</button>
+				         <button type="button" class="btn btn-primary btn-sm">Small Button</button>
+				         <button type="button" class="btn btn-default btn-sm">Small button</button>
+				         <button type="button" class="btn btn-primary btn-xs">Extra small Button</button>
+				         <button type="button" class="btn btn-default btn-xs">Extra small button</button>
+				    </div>
+				    </div>
+				</section>
+				<section>
+				    <div class="card">
+				    	 <h5 class="card-title">Block Button</h5>
+				    	 <div class="card-body">
+				    	 	<button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+							<button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
+					    </div>
+				    </div>
+			</section>
+			<section>
+			    <div class="card">
+			    	 <h5 class="card-title">Justified Button</h5>
+			    	 <div class="card-body">
+			    	 	<div class="btn-group" role="group" aria-label="Basic example">
+						  <button type="button" class="btn btn-aqua">Left</button>
+						  <button type="button" class="btn btn-aqua">Middle</button>
+						  <button type="button" class="btn btn-aqua">Right</button>
+					    </div>
+				    </div>
+			    </div>
+			</section>
+			<section>
+  				<div class="card">
+  					<div class="card-body">
+  						<h5 class="card-title">Dropdown Buttons</h5>
+  						<div class="dropdown">
+  							<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
+					    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						    <a class="dropdown-item" href="#">Action</a>
+						    <a class="dropdown-item" href="#">Another action</a>
+						    <a class="dropdown-item" href="#">Something else here</a>
+					    </div>
+					    </div>
+			        </div>
+			    </div>
+		  	</section>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
