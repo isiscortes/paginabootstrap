@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA Compatible" content="IE=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="html/todolist.html">
+	<link rel="stylesheet" href="html/general.html">
+	<link rel="stylesheet" href="html/index.html">
+
+
+</head>
+<body>
+	<div class="pos-f-t">
+		<div class="collapse" id="navbarToggleExternalContent">
+			<div class="bg-warning p-4">
+				<h4 class="text-dark">Collapsed content</h4>
+	      		<span class="text-muted">Toggleable via the navbar brand.</span>
+	    	</div>
+	  	</div>
+	    <nav class="navbar navbar-dark bg-warning">
+	    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="navbar-toggler-icon dark"></span>
+	    	</button>
+	  </nav>
+	</div>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+
+<ul class="nav flex-column bg-dark">
+	<img class="resize" src="img/logo.jpg" alt="logo">"
+	<p> Marcel Newman</p>
+
+  <li class="nav-item ">
+    <a class="nav-link active " href="#">Dashboard</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="#button">UI Elements</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="#">Components</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link " href="#">Extra Pages</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link " href="#">Forms</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link " href="#datatable">Data Tables</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link " href="#">Charts</a>
+  </li>
+</ul>
+      <!--Sidebar content-->
+ </div>
+    <div class="col-sm-9">
+	    <div class="row">
+	    	<div class="col-sm-12">
+			  	
+				<section>
+
+				        <h5 >Basic Table Examples</h5>
+				        <table class="table">
+				          <thead>
+				            <tr>
+				              <th scope="col">#</th>
+				              <th scope="col">First</th>
+				              <th scope="col">Last</th>
+				              <th scope="col">Handle</th>
+				            </tr>
+				          </thead>
+				          <tbody>
+				            <tr>
+				              <th scope="row">1</th>
+				              <td>Mark</td>
+				              <td>Otto</td>
+				              <td>@mdo</td>
+				            </tr>
+				            <tr>
+				              <th scope="row">2</th>
+				              <td>Jacob</td>
+				              <td>Thornton</td>
+				              <td>@fat</td>
+				            </tr>
+				            <tr>
+				              <th scope="row">3</th>
+				              <td>Larry</td>
+				              <td>the Bird</td>
+				              <td>@twitter</td>
+				            </tr>
+				          </tbody>
+				        </table>
+						
+		
+				</section>
+				<section>
+
+					        <h5 >Hover Table</h5>
+					       <table class="table table-hover">
+					         <thead>
+					           <tr>
+					             <th scope="col">#</th>
+					             <th scope="col">First</th>
+					             <th scope="col">Last</th>
+					             <th scope="col">Handle</th>
+					           </tr>
+					         </thead>
+					         <tbody>
+					           <tr>
+					             <th scope="row">1</th>
+					             <td>Mark</td>
+					             <td>Otto</td>
+					             <td>@mdo</td>
+					           </tr>
+					           <tr>
+					             <th scope="row">2</th>
+					             <td>Jacob</td>
+					             <td>Thornton</td>
+					             <td>@fat</td>
+					           </tr>
+					           <tr>
+					             <th scope="row">3</th>
+					             <td colspan="2">Larry the Bird</td>
+					             <td>@twitter</td>
+					           </tr>
+					         </tbody>
+					       </table>
+					
+				</section>
+				<section>
+
+					        <h5 >Advanced Table</h5>
+					       <div class="table-responsive-sm">
+					         <table class="table">
+
+					             <thead>
+					               <tr>
+					                 <th scope="col">Company</th>
+					                 <th scope="col">Description</th>
+					                 <th scope="col">Profit</th>
+					                 <th scope="col">Status</th>
+					                 <th scope="col"></th>
+					               </tr>
+					             </thead>
+					             <tbody>
+					               <tr>
+					                 <th scope="row">Company Ltd</th>
+					                 <td>Lorem Ipsum dolor</td>
+					                 <td>12000.00$</td>
+					                 <td> <span class="badge badge-info badge-pill">Due</span></td>
+					                 <td> </td>
+					               </tr>
+					               <tr>
+					                 <th scope="row">Dashgum co</th>
+					                 <td>Lorem Ipsum dolor</td>
+					                 <td>17900.00$</td>
+					                 <td><span class="badge badge-warning badge-pill">Due</span></td>
+					                 <td> </td>
+					               </tr>
+					               <tr>
+					                 <th scope="row">Another Co</th>
+					                 <td>Lorem Ipsum dolor</td>
+					                 <td>14400.00$</td>
+					                 <td><span class="badge badge-success badge-pill">Paid</span></td>
+					                 <td> </td>
+					               </tr>
+					               <tr>
+					                 <th scope="row">Dashgum ext</th>
+					                 <td>Lorem Ipsum dolor</td>
+					                 <td>22000.00$</td>
+					                 <td><span class="badge badge-success badge-pill">Paid</span></td>
+					                 <td> </td>
+					               </tr>
+					               
+					               <tr>
+					                 <th scope="row">Total Ltd</th>
+					                 <td>Lorem Ipsum dolor</td>
+					                 <td>121200.00$</td>
+					                 <td><span class="badge badge-warning badge-pill">Due</span></td>
+					                 <td> </td>
+					               </tr>
+					             </tbody>
+					           </table>
+					         </table>
+					       </div>
+
+					       
+					
+				</section>
+				
+			
+			</div>
+
+		  	
+		</div>
+	</div>
+
+
+	<script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
