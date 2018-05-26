@@ -4,26 +4,24 @@
 	<meta charset="UTF-8">
 	<title>Bootstrap</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA Compatible" content="IE=edge">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="html/datatable.html">
 	<link rel="stylesheet" href="html/general.html">
 	<link rel="stylesheet" href="html/todolist.html">
-
 
 </head>
 <body>
 	<div class="pos-f-t">
 		<div class="collapse" id="navbarToggleExternalContent">
 			<div class="bg-warning p-4">
-				<h4 class="text-dark">Collapsed content</h4>
+				<h4 class="text-white">Collapsed content</h4>
 	      		<span class="text-muted">Toggleable via the navbar brand.</span>
 	    	</div>
 	  	</div>
 	    <nav class="navbar navbar-dark bg-warning">
 	    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="navbar-toggler-icon dark"></span>
+	        <span class="navbar-toggler-icon"></span>
 	    	</button>
 	  </nav>
 	</div>
@@ -36,35 +34,38 @@
 	<img class="resize" src="img/logo.jpg" alt="logo">"
 	<p> Marcel Newman</p>
 
-  <li class="nav-item ">
-    <a class="nav-link active " href="#">Dashboard</a>
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Dashboard</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link " href="#button">UI Elements</a>
+    <a class="nav-link" href="#">UI Elements</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link " href="#">Components</a>
+    <a class="nav-link" href="#">Components</a>
   </li>
    <li class="nav-item">
-    <a class="nav-link " href="#">Extra Pages</a>
+    <a class="nav-link" href="#">Extra Pages</a>
   </li>
    <li class="nav-item">
-    <a class="nav-link " href="#">Forms</a>
+    <a class="nav-link" href="#">Forms</a>
   </li>
    <li class="nav-item">
-    <a class="nav-link " href="#datatable">Data Tables</a>
+    <a class="nav-link" href="#datatable">Data Tables</a>
   </li>
    <li class="nav-item">
-    <a class="nav-link " href="#">Charts</a>
+    <a class="nav-link" href="#">Charts</a>
   </li>
 </ul>
+	
       <!--Sidebar content-->
  </div>
     <div class="col-sm-9">
 	    <div class="row">
 			  <div class="col-sm-6">
 			  	<section>
-				        <h5 >Basic Buttons</h5>
+				    <div class="card">
+				      <div class="card-body">
+				        <h5 class="card-title">Basic Buttons</h5>
 				        <button type="button" class="btn btn-default btn-sm">Default</button>
 			    		<button type="button" class="btn btn-primary btn-sm">Primary</button>
 						<button type="button" class="btn btn-secondary btn-sm">Secondary</button>
@@ -75,8 +76,10 @@
 				      </div>
 				    </div>
 				</section>
-
-				        <h5 >Buttons Round</h5>
+				<section>
+					<div class="card">
+				     <div class="card-body">
+				        <h5 class="card-title">Buttons Round</h5>
 				        <button type="button" class="btn btn-default round">Default</button>
 			    		<button type="button" class="btn btn-primary round">Primary</button>
 						<button type="button" class="btn btn-secondary round">Secondary</button>
@@ -88,8 +91,9 @@
 			    	</div>
 				</section>
 				<section>
-
-					        <h5 >Theme Buttons</h5>
+					<div class="card">
+						<div class="card-body">
+					        <h5 class="card-title">Theme Buttons</h5>
 					        <button type="button" class="btn btn-aqua btn-sm"> Theme </button>
 					        <button type="button" class="btn btn-lila btn-sm"> Theme 02 </button>
 					        <button type="button" class="btn btn-verde btn-sm"> Theme 03 </button>
@@ -98,7 +102,9 @@
 					 </div>
 				</section>
 				<section>
-			    	 <h5 >Buttons Group</h5>
+			    <div class="card">
+			    	 <h5 class="card-title">Buttons Group</h5>
+			    	 <div class="card-body">
 			    	 	<div class="btn-group" role="group" aria-label="Basic example">
 						  <button type="button" class="btn btn-default">Left</button>
 						  <button type="button" class="btn btn-default">Middle</button>
@@ -108,7 +114,9 @@
 			    </div>
 			</section>
 			<section>
-					<h5> Button Nesting</h5>
+				<div class="card">
+					<h5 class="card-title"> Button Nesting</h5>
+				<div class="card-body">
 					<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
 					  <button type="button" class="btn btn-default">1</button>
 					  <button type="button" class="btn btn-default">2</button>
@@ -130,7 +138,9 @@
 
 			<div class="col-sm-6">
 			  	<section>
-				        <h5 >Button Sizes</h5>
+				    <div class="card">
+				    <div class="card-body">
+				        <h5 class="card-title">Button Sizes</h5>
 				        <button type="button" class="btn btn-primary btn-lg">Large Button</button>
 				         <button type="button" class="btn btn-default btn-lg">Large button</button>
 				         <button type="button" class="btn btn-primary btn-default">Default Button</button>
@@ -143,14 +153,18 @@
 				    </div>
 				</section>
 				<section>
-				    	 <h5 >Block Button</h5>
+				    <div class="card">
+				    	 <h5 class="card-title">Block Button</h5>
+				    	 <div class="card-body">
 				    	 	<button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
 							<button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
 					    </div>
 				    </div>
 			</section>
 			<section>
-			    	 <h5 >Justified Button</h5>
+			    <div class="card">
+			    	 <h5 class="card-title">Justified Button</h5>
+			    	 <div class="card-body">
 			    	 	<div class="btn-group" role="group" aria-label="Basic example">
 						  <button type="button" class="btn btn-aqua">Left</button>
 						  <button type="button" class="btn btn-aqua">Middle</button>
@@ -160,7 +174,9 @@
 			    </div>
 			</section>
 			<section>
-  						<h5 >Dropdown Buttons</h5>
+  				<div class="card">
+  					<div class="card-body">
+  						<h5 class="card-title">Dropdown Buttons</h5>
   						<div class="dropdown">
   							<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action</button>
 					    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
